@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/prokraster/avr_blink.svg?branch=master)](https://travis-ci.org/prokraster/avr_blink)
 
 # AVR Blink
 
