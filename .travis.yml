@@ -1,0 +1,10 @@
+dist: trusty
+sudo: false
+language: cpp
+
+install:
+  - sudo apt-get install -qq gcc-avr binutils-avr avr-libc
+
+script:
+  - CXX=/usr/bin/avr-g++ CC=/usr/bin/avr-gcc cmake .
+  - cmake --build . -- -j2
